@@ -1,7 +1,7 @@
 public class Ocurrencias {
 
     public static String cuentaOcurrencias(String cadena, String subcadena){
-        int posicion;
+
         int contador=0;
         char[] caracteresSubcadena=subcadena.toCharArray();
         char[] caracteresCadena=cadena.toCharArray();
