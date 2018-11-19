@@ -21,7 +21,6 @@ public class Ocurrencias {
 
     public static void main(String[] args) {
 
-        System.out.println(Ocurrencias.cuentaOcurrencias("En un lugar de la Mancha", "aln"));
-
+        System.out.println(Ocurrencias.cuentaOcurrencias("En un lugar de la Mancha", "alnu"));
     }
 }
