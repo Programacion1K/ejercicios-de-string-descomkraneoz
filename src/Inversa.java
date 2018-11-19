@@ -1,5 +1,9 @@
 public class Inversa {
     public static String inversaCadena(String cadena) {
-        return null;
+        String cadenaInvertida="";
+        for (int i = cadena.length()-1; i >=0 ; i--) {
+            cadenaInvertida+=cadena.charAt(i);
+        }
+        return cadenaInvertida;
     }
 }
